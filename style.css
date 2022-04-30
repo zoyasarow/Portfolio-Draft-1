@@ -2,12 +2,12 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 8px;
     margin: 0%;
 }
 
 h1 {
-    color:#86af49;
+    color:rgb(241, 209, 22);
     font-size: 40px;
 }
 
@@ -22,7 +22,6 @@ h2 {
 h3 {
     color:#86af49;
     font-size: 35px; 
-    
 }
 
 h4 {
@@ -30,8 +29,13 @@ h4 {
     color: white;
 }
 
+h5 {
+    font-size: 15px;
+}
+
 p {
     color:#517e7e; 
+    font-size: 18px;
 }
 
 .Sarow {
@@ -53,7 +57,7 @@ p {
 
 nav {
     padding: 15px;
-    background-color: lightgrey;
+    background-image: url(./Assets/Surf\ Report.jpeg)
 }
 
 a {
@@ -64,11 +68,14 @@ a {
 }
 
 a:hover {
-    color:#618685;
+    color:rgb(241, 209, 22) ;
 }
 
 .About {
     display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
@@ -81,10 +88,9 @@ a:hover {
     float: left;
 }
 
-.AboutText {
-    float: right;
-    padding: 15px;
-    align-items: center;
+.About p {
+    max-width: 600px;
+    min-width: 100px;
 }
 
 #workTitle {
@@ -113,9 +119,16 @@ a:hover {
     background-color: #86af49;
     width: 240px;
     height: 53px;
-    margin-top: 40px;  
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
+#cloudLabel:hover {
+    font-size: 45px;
+    width: 315px;
+    height: auto;
+}
+  
 .Portfolio-row-2 {
     display: flex;
     flex-direction: row;
@@ -134,31 +147,64 @@ a:hover {
     background-color: #86af49;
     width: 245px;
     height: 43px;
-    margin-top: 235px;
-    margin-left: 30px;
+    margin-top: 215px;
+    margin-left: 20px;
     font-size: 25px;
+}
+
+#communityLabel:hover {
+    font-size: 35px;
+    width: 345px;
+    height: auto;
 }
 
 .lightArt{
     border: 5px solid #86af49;
-    background-image: url(./Assets/Artwork.jpg);
+    background-image: url(./Assets/LED\ wall.jpeg);
     height: 300px;
     width: 500px;
     background-size: cover;
 }
 
 #artLabel {
+    padding: 5px;
+    background-color: #86af49;
+    width: 120px;
+    height: 43px;
+    margin-top: 215px;
+    margin-left: 20px;
+    font-size: 25px;
+}
 
+#artLabel:hover {
+    font-size: 35px;
+    width: 165px;
+    height: auto;
 }
 
 .Contact {
+    display: flex;
+    flex-direction: column;
     padding: 30px;
 }
 
-#contactText {
-    padding: 15px;
-    font-size: 20px;
+.contactText {
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 0%;
 }
 
-
+.contactButton {
+    padding: 8px;
+    background-color: rgb(241, 209, 22);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+footer {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 400px;
+    align-items: center;
+}
 
