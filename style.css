@@ -71,7 +71,7 @@ a:hover {
     color:rgb(241, 209, 22) ;
 }
 
-.About {
+#About {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -84,16 +84,16 @@ a:hover {
     height: 400px;
 }
 
-.AboutImg {
+#AboutImg {
     float: left;
 }
 
-.About p {
+#About p {
     max-width: 600px;
     min-width: 100px;
 }
 
-#workTitle {
+#Work {
     margin-left: 75px;
     font-size: 40px;
     display: flex;
@@ -182,7 +182,7 @@ a:hover {
     height: auto;
 }
 
-.Contact {
+#Contact {
     display: flex;
     flex-direction: column;
     padding: 30px;
