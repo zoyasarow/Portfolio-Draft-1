@@ -1,6 +1,6 @@
-# Portfolio Draft 1
+# CSS & HTML Built Portfolio Draft
 
-Live Link: https://zoyasarow.github.io/Portfolio-Draft-1/
+[Live Link](https://zoyasarow.github.io/Portfolio-Draft-1/)
 
 Portfolio draft using HTML &amp; CSS
 
